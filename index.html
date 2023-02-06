@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_Field</title>
+    <style>
+        .mein{
+            border-style: solid;
+            width: 665px;
+            padding: 53px;
+            margin-left: 279px;
+            height: 528px;
+            border-radius: 5px;
+            border-color: rgb(225 225 225);
+            border:1px solid #ccc!important;
+            
+        }
+        .blue{
+            color: #4688f1;
+            font-weight: bold;
+            margin-bottom: 40px;
+            font-family: system-ui;
+
+        }
+        .btn{
+            background-color: #4688f1;
+            color: #fff;
+            border-radius: 5px;
+            height: 30px;
+            width: 70px;
+            border: none;
+            margin-left: 208px;
+        }
+        .imgset{
+            height: 30px;
+        }
+        .G-img{
+            position: relative;
+            left: 415px;
+             bottom: 396px;
+        }
+        .int{
+            border-radius: 4px;
+            height: 30px;
+            border-color: rgb(225 225 225);
+            border:1px solid #ccc!important;
+            padding-left: 7px;
+            /* display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px; */
+        }
+        .heading{
+            font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+            font-size: 24px;
+             font-weight: 400;
+             color: #2c2d31;
+        }
+        .cd1{
+            color: #5f6368;
+            margin: 3px;
+            font-family: system-ui;
+    font-size: 13px;
+        }
+        .Show{
+            display: flex;
+            margin-top: 24px;
+            margin-bottom: 10px;
+
+        }
+        .box{
+            margin-top: 11px;
+    margin-right: 12px;
+    width: 15px;
+        }
+        .email-block{
+            display: flex;
+            gap: 4px;
+            align-items: center;
+            /* border: 1px solid silver; */
+            border:1px solid #ccc!important;
+            width: 358px;
+            border-radius: 4px;
+            padding: 4px;
+            color: #625d5d;
+            border-color: rgb(225 225 225);
+            height: 25px;
+        }
+        .input-box{
+            outline: none;
+            border: none;
+        }
+
+        .email-block-name{
+            display: flex;
+            justify-content: flex-end ;
+            width: 100%;
+        }
+        .text{
+            text-align: center;
+            margin-right: 432px;
+            color: #202124;
+             font-family: system-ui;
+           /* margin-bottom: 332px; */
+          /* padding-bottom: 131px; */
+          position: relative;
+          bottom: 15px;
+        }
+    </style>
+</head>
+<body style="font-family: roboto,">
+    <div class="mein">
+    <img class="imgset" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo">
+    <form action="#">
+    <div><p class="heading">Create your Google Account
+    </p> </div>
+    <div>
+        <input class="int" type="text" placeholder="First name"/>
+        <input style="margin-left: 6px;" class="int" type="text" placeholder="Lastname"/><br> <br>
+
+        <div class="email-block">
+            <div class="email-block-input">
+                <input class="input-box" type="text" placeholder="Username"/>
+
+            </div>
+            <div class="email-block-name">
+                <span>@gmail.com</span>
+            </div>
+
+        </div>
+        <!-- <input class="int" type="email" placeholder="Username"/> -->
+        <p class="cd1">You can use letters and full stops</p>
+
+        <p class="blue">Use my current email address instead</p>
+        <input class="int" type="password" placeholder="Password"/>
+        <input style="margin-left: 6px;" class="int" type="password" placeholder="Confirm"/><br>
+        <p class="cd1">Use 8 or more character with a mix of letters,number& <br>symbols</p>
+        <div class="Show">
+        <input class="box" type="checkbox" placeholder="Show password"/> <p style="margin-top: 25px; font-size: 14px; 
+        font-family: sans-serif;">Show password</p> 
+    </div>
+
+        <span class="blue">Sign in instead</span>
+        <button class="btn">Next</button>
+
+        <div class="G-img"><img src="https://ssl.gstatic.com/accounts/signup/glif/account.svg" alt width="244" height="244">
+            <p class="text" >One account. All of Google<br> working for you.</p>
+        </div>
+
+
+
+    </div>
+</div>
+    
+</body>
+</html>
